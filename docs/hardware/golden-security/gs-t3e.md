@@ -126,7 +126,7 @@ Pin| Mode   | GS-T3E     | Group | Default
 
 
 !!! tip
-    To configure the GPIOs _as light switches_ at once for L8-HS send to topic `hasp/<nodename>/config/gpio` a message with payload:  
+    To configure the GPIOs _as light switches_ at once for GS-T3E send to topic `hasp/<nodename>/config/gpio` a message with payload:  
     ```json linenums="1"
     {"config":[197658,263456,329249,655628,655886,656155,0,0]}
     ```
